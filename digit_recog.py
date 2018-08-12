@@ -26,5 +26,5 @@ classifier.fit(X, y)
 print('Prediction:', classifier.predict([digits['data'][-4]]))
 
 #PLotting the image
-plt.imshow(digits.images[-4], cmap=plt.cm.gray_r, interpolation='nearest')
+plt.imshow(digits['images'][-4], cmap=plt.cm.gray_r, interpolation='nearest')
 plt.show()
