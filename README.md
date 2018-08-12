@@ -1,5 +1,10 @@
 # Digits Recognition
-Recognizing digits other than 0 or 1 is a big step for machine to learn. This code will tell you how it is done using the algorithm present on the internet.
+Recognizing digits other than 0 or 1 is a big step for machine to learn. This code will tell you how it is done using the algorithm present already on the internet.
+
+<h4 align="center">Prediction: 0</h4>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheRealMentor/Digits-Recognition/master/Figure_1.png" alt="Number 0">
+</p>
 
 ## Where to get the dataset?
 This is the important question we have in the beginning of every machine learning project. Because to do some task you need to have some data (by some I mean a lot of data) to train our machine, our code, to be able to predict or do whatever task we give to it do, efficiently. 
@@ -9,7 +14,15 @@ For this particular problem, I have used [sklearn's digits dataset](http://sciki
 ## What do we have in the dataset?
 In the real world, most of the data is not labeled. We have to label it manually, or we can ask a machine to do it. (FYI, that's what we are trying to do here!) 
 
-In this dataset, we have different values at different positions that eventually define the number. We have 10 classes (0-9) and for each class we have different type of datapoint that can be present in the real world regarding that class. For example, look at the following images.
+In this dataset, we have different values at different positions that eventually define the number. We have 10 classes (0-9) and for each class we have different type of data point that can be present in the real world regarding that class. For example, look at the following images.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheRealMentor/Digits-Recognition/master/number8_1.png" alt="Number 8">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheRealMentor/Digits-Recognition/master/number8_2.png" alt="Number 8">
+</p>
 
 Both of these images are of number 8. They look different but both of these have same characteristics that machine is able to find and predict most of the time correctly. 
 
